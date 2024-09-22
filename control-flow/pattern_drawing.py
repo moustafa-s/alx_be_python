@@ -3,5 +3,6 @@ i = 0
 
 while i < size:
     for j in range(size):
-        print("*" * size)
-        i += 1
+        print("*", end="")
+    print("")
+    i += 1
